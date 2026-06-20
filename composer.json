@@ -1,0 +1,26 @@
+{
+  "name": "anhao/payment-hub-client",
+  "description": "Payment Hub PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/anhao/payment-hub-php",
+  "support": {
+    "source": "https://github.com/anhao/payment-hub-php"
+  },
+  "autoload": {
+    "psr-4": {
+      "Anhao\\PaymentHub\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Anhao\\PaymentHub\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  }
+}
