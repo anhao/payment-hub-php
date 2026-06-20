@@ -105,3 +105,5 @@ if (! Signature::verifyReturnUrl($_GET, 'your_app_secret')) {
 $paymentNo = $_GET['payment_no'] ?? '';
 ```
 
+
+> 生产环境默认地址：`https://payhub.alapi.cn`
