@@ -104,3 +104,5 @@ if (! Signature::verifyReturnUrl($_GET, 'your_app_secret')) {
 // 仅用于页面展示或定位订单；最终发货仍以 Webhook / 主动查询为准。
 $paymentNo = $_GET['payment_no'] ?? '';
 ```
+
+<!-- publish-test-marker -->
